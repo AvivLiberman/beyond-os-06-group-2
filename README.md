@@ -1,13 +1,13 @@
 # Falcon
 
-Manage and contorl workflows app
+Manage and control workflow app
 
 # Installation
 
 1. Install [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/)/[VMWare](https://www.vmware.com/) hypervisor.
-2. Clone [roo.me](https://github.com/beyond-io/roo.me) repository.
+2. Clone [beyond-os-06-group-2](https://github.com/beyond-io/beyond-os-06-group-2) repository.
    ```sh
-   https://github.com/beyond-io/roo.me.git
+   https://github.com/redhat-beyond/beyond-os-06-group-2
    ```
 3. Open any terminal and navigate to the project directory.
 4. Run the `vagrant up` command.
