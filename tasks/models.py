@@ -72,7 +72,8 @@ class Task(models.Model):
         assigner_team = created_by.team
         assigne_team = assignee.team
         if assigne_team != assigner_team:
-            raise ValueError("Manager can assign tasks only for his own employees")
+            raise ValueError(
+                "Manager can assign tasks only for his own employees")
         if assigner_role != Role.MANAGER:
             raise ValueError("User must be a manager to assign tasks")
         task = Task.objects.create(title=title,
