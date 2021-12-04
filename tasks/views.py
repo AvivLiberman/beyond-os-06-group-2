@@ -19,6 +19,7 @@ def create(request):
                              priority=request.POST['priority'],
                              status=request.POST['status'],
                              description=request.POST['description'])
+            # Should be changed to tasks view after being implemented
             return redirect('homepage')
 
     context = {'form': form}
